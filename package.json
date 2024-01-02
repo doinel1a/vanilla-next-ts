@@ -11,8 +11,9 @@
     "url": "https://github.com/doinel1a/next-ts"
   },
   "scripts": {
-    "postinstall": "npx husky install",
+    "postinstall": "npx husky install && playwright install",
     "dev": "next dev",
+    "test": "playwright test",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -28,6 +29,7 @@
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@playwright/test": "^1.40.1",
     "@types/eslint": "^8.56.0",
     "@types/node": "20.10.6",
     "@types/react": "18.2.46",
