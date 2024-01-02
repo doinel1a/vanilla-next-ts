@@ -1,39 +1,25 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-    node: true
-  },
-  plugins: [],
+  plugins: ['@typescript-eslint'],
   extends: [
     'next/core-web-vitals',
-    'plugin:prettier/recommended',
+    'plugin:react/recommended',
     'plugin:promise/recommended',
-    'plugin:jsx-a11y/recommended',
     'plugin:sonarjs/recommended',
     'plugin:unicorn/recommended',
-    'plugin:react/recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:prettier/recommended',
+    'plugin:jsx-a11y/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:@typescript-eslint/stylistic-type-checked',
+    'plugin:@typescript-eslint/recommended-type-checked'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    project: true,
+    sourceType: 'module',
+    ecmaVersion: 'latest'
   },
   settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx']
-    },
-    'import/resolver': {
-      node: {
-        extensions: ['.ts', '.tsx'],
-        moduleDirectory: ['node_modules', 'src/']
-      },
-      typescript: {
-        alwaysTryTypes: true
-      }
-    },
     react: {
       pragma: 'React',
       version: 'detect'
@@ -48,25 +34,25 @@ module.exports = {
     semi: ['error', 'always'],
     // end
 
-    // prettier
-    'arrow-body-style': 'off',
-    'prefer-arrow-callback': 'off',
-    'prettier/prettier': [
+    // typescript
+    '@typescript-eslint/array-type': 'off',
+    '@typescript-eslint/consistent-type-definitions': 'off',
+
+    '@typescript-eslint/consistent-type-imports': [
+      'warn',
+      {
+        prefer: 'type-imports',
+        fixStyle: 'inline-type-imports'
+      }
+    ],
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/require-await': 'off',
+    '@typescript-eslint/no-misused-promises': [
       'error',
       {
-        printWidth: 100,
-        tabWidth: 2,
-        useTabs: false,
-        semi: true,
-        singleQuote: true,
-        jsxSingleQuote: true,
-        trailingComma: 'none',
-        bracketSpacing: true,
-        bracketSameLine: false,
-        arrowParens: 'always',
-        endOfLine: 'crlf'
+        checksVoidReturn: { attributes: false }
       }
     ]
-    // end prettier
+    // end
   }
 };
