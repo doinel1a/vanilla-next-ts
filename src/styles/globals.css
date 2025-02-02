@@ -16,11 +16,6 @@
     --accent-primary-state: #1e40af; /* blue-800 */
   }
 
-  html,
-  body {
-    @apply h-full w-full;
-  }
-
   body {
     @apply bg-primary text-color-light;
   }
