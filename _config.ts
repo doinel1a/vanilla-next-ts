@@ -1,6 +1,6 @@
 const config = {
   metadata: {
-    title: 'Next.js TypeScript — Template',
+    title: 'Vanilla Next.js TypeScript — Template',
     description:
       'Boilerplate template designed to quickly bootstrap a Next.js Web App, SPA, website or landing page with TypeScript, TailwindCSS, ESLint, Husky and much more in just 30 seconds.',
     keywords:
