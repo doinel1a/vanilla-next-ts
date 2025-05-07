@@ -2,10 +2,10 @@
 [pnpm]: https://pnpm.io/installation
 [yarn]: https://yarnpkg.com/getting-started/install
 [demo]: https://next-ts.d1a.app/
-[license]: https://github.com/doinel1a/next-ts/blob/main/LICENSE
-[code-of-conduct]: https://github.com/doinel1a/next-ts/blob/main/CODE_OF_CONDUCT.md
-[issues]: https://github.com/doinel1a/next-ts/issues
-[pulls]: https://github.com/doinel1a/next-ts/pulls
+[license]: https://github.com/doinel1a/vanilla-next-ts/blob/main/LICENSE
+[code-of-conduct]: https://github.com/doinel1a/vanilla-next-ts/blob/main/CODE_OF_CONDUCT.md
+[issues]: https://github.com/doinel1a/vanilla-next-ts/issues
+[pulls]: https://github.com/doinel1a/vanilla-next-ts/pulls
 [browserslist]: https://browsersl.ist/#q=last+3+versions%2C%3E+0.2%25%2C+not+dead
 [commitlint]: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
 [chrome-icon]: https://github.com/alrra/browser-logos/blob/main/src/chrome/chrome_64x64.png
@@ -14,7 +14,7 @@
 [opera-icon]: https://github.com/alrra/browser-logos/blob/main/src/opera/opera_64x64.png
 [safari-icon]: https://github.com/alrra/browser-logos/blob/main/src/safari/safari_64x64.png
 
-# Next TypeScript — Template
+# Vanilla Next TypeScript — Template
 
 This development starter template is the ultimate solution to help you getting started on your project in no time, without the hassle of setting up and configuring your development environment from scratch each time you start working.
 This repository is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **Next.js**, **TypeScript**, **TailwindCSS**, **ESLint**, **Prettier**, **Husky** and much more!
@@ -51,7 +51,7 @@ This repository is ideal for front-end developers who want to build modern, fast
   - click **"Use this template"** &nbsp; or &nbsp; **"Fork"** button <br /> alternately
   - **clone** the repository through your terminal: <br />
     ```bash
-    git clone https://github.com/doinel1a/next-ts YOUR-PROJECT-NAME
+    git clone https://github.com/doinel1a/vanilla-next-ts YOUR-PROJECT-NAME
     ```
 - Open your terminal or code editor to the path your project is located, and run:
 
@@ -62,7 +62,7 @@ This repository is ideal for front-end developers who want to build modern, fast
   | To **build** your app **for production**         | `npm run build`   | `pnpm build`   | `yarn build`   |
   | To **preview** your **production optimized app** | `npm run preview` | `pnpm preview` | `yarn preview` |
 
-[Back to :arrow_up:](#next-ts--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vanilla-next-typescript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -81,7 +81,7 @@ This repository comes 🔋 packed with:
 - **Lint staged**;
 - **Playwright**;
 
-[Back to :arrow_up:](#next-ts--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vanilla-next-typescript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -103,7 +103,7 @@ Update the configuration [here][browserslist] and check in real-time the **globa
 
 **\* The more versions to support, larger JS and CSS bundles size will be.**
 
-[Back to :arrow_up:](#next-ts--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vanilla-next-typescript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -128,7 +128,7 @@ Please check the [**contributing guide**][code-of-conduct] for details on how to
     4.  Push your new branch: `git push origin fix/BUG-FIX`;
 4.  **Open a new [pull request][pulls];**
 
-[Back to :arrow_up:](#next-ts--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vanilla-next-typescript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -138,7 +138,7 @@ All logos and trademarks are the property of their respective owners.
 Everything else is distributed under the **MIT License** .  
 See the [LICENSE][license] file for more informations.
 
-[Back to :arrow_up:](#next-ts--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vanilla-next-typescript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -149,4 +149,4 @@ Special thanks to:
 - [alrra](https://github.com/alrra) for [browser-logos](https://github.com/alrra/browser-logos);
 - [tandpfun](https://github.com/tandpfun) for [skill-icons](https://github.com/tandpfun/skill-icons);
 
-[Back to :arrow_up:](#next-ts--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vanilla-next-typescript--template "Back to 'Table of contents' section")
