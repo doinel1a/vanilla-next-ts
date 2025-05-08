@@ -17,7 +17,7 @@
 # Vanilla Next TypeScript — Template
 
 This development starter template is the ultimate solution to help you getting started on your project in no time, without the hassle of setting up and configuring your development environment from scratch each time you start working.
-This repository is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **Next.js**, **TypeScript**, **TailwindCSS**, **ESLint**, **Prettier**, **Husky** and much more!
+This repository is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **Next.js 15**, **React.js 19**, **TypeScript**, **TailwindCSS 4**, **ESLint 9**, **Prettier**, **Husky** and much more!
 
 ---
 
@@ -70,11 +70,11 @@ This repository is ideal for front-end developers who want to build modern, fast
 
 This repository comes 🔋 packed with:
 
-- **Next.js**;
-- **TypeScript**;
-- **TailwindCSS**;
+- **Next.js 15**;
+- **React.js 19**;
+- **TailwindCSS 4**;
 - **SASS** & **SCSS**;
-- **ESLint**;
+- **ESLint 9**;
 - **Prettier**;
 - **Husky**;
 - **Commitlint**;
