@@ -1,5 +1,6 @@
 {
   "private": true,
+  "type": "module",
   "license": "MIT",
   "author": {
     "name": "Doinel Atanasiu",
