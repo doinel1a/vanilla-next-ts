@@ -1,6 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-tertiary: var(--tertiary);
+  --color-color-light: var(--color-light);
+  --color-color-dark: var(--color-dark);
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-primary-state: var(--accent-primary-state);
+}
 
 @layer base {
   :root {
