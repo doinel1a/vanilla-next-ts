@@ -6,7 +6,7 @@ import React from 'react';
 import type { Metadata, Viewport } from 'next';
 import type { PropsWithChildren } from 'react';
 
-import config from '_config';
+import config from '../../_config';
 
 export const metadata: Metadata = {
   title: config.metadata.title,
