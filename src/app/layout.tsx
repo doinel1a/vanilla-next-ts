@@ -24,7 +24,7 @@ export default function RootLayout({ children }: Readonly<TRootLayout>) {
   return (
     <html lang='en'>
       <body>
-        <div className='grid min-h-[100dvh] grid-rows-[auto_1fr_auto]'>
+        <div className='grid min-h-dvh grid-rows-[auto_1fr_auto]'>
           <header className='flex h-10 items-center justify-center border-b'>
             <h1>Header</h1>
           </header>
